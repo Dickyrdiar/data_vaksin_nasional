@@ -8,7 +8,7 @@ async function GetCheckDiri() {
 
     return {
         total_sasaran: total_sasaran_vaksinasi, 
-        sasaran_vaksinasi_sdmk: sasaran_vaksinasi_sdmk, 
+        sasaran_vaksinasi_sdm_kesehatan: sasaran_vaksinasi_sdmk, 
         sasaran_vaksinasi_lansia: sasaran_vaksinasi_lansia, 
         sasaran_vaksinasi_publik: sasaran_vaksinasi_petugas_publik, 
         vaksinasi1, 
