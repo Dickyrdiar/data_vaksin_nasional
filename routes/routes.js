@@ -7,13 +7,13 @@ router.get('/', (req, res) => {
         "message": "Data vaksinasi nasional", 
         "enpoints": {
             "json": {
-                vaksin: `${url}/api/vaksin`
+                vaksin: `${url}/api/vaksins`
             }
         }
     })
 })
 
-router.get('/vaksin', async(req, res) => {
+router.get('/vaksins', async(req, res) => {
     const data = await GetCheckDiri()
     res.json(data)
 })
